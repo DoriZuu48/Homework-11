@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;	
+}
+.milk{
+display: flex;
+flex-direction: column;
+align-items: center;
+background-image: url('../img/headerlogo.png') ;
+min-height: 100vh;
+background-size: cover;
+}
+.header {
+display: flex;
+flex-direction: row;
+flex-wrap: nowrap;
+justify-content: space-between;
+align-items: center;
+width: 80vw;
+height: 30vh;
+}
+
+.header__logo {
+font-family: 'Modak', cursive;
+color: black;
+font-size: 20px; 
+}
+.header {
+display: flex;
+flex-direction: row;
+}
+.menu {
+    font-family: 'Modak', cursive;
+    color: black;
+    font-size: 15px; 
+    display: flex;
+    list-style: none;
+    flex-flow: row nowrap;
+    margin-right: 10px;
+    }
+
+.header_menu__modification{
+    width: 50px;
+    height: 40px;
+    margin: 1vw;
+    font-size: 15px;
+}
+
+    a {
+    text-decoration: none;
+    color: black;
+    }
+
+    li:hover{
+    border-top: 3px solid #EC407A;
+    }
+
+    li:hover a {
+    color:#EC407A;
+    }
+
+.section{
+display: flex;
+flex-flow: column wrap;
+flex-wrap: wrap;
+justify-content: flex-start;
+height: 40vh;
+width: 80vw;
+}
+.section__content{
+font-family: 'Modak', cursive;
+font-size: 40px;
+font-weight: 600;
+height: 10vh;
+}
+.section__content__text {
+    font-size: 16px;
+    font-family: 'Lateef', cursive;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    width: 40vw;
+    height: 20vh
+}
+.section__content__link{
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    justify-content: center;
+    width: 7vw;
+    padding: 1em 2em;
+    font-size: 16px;
+    color: #fff;
+    background-color: #FF9800;
+
+}
+
+
+.cup{
+min-height: 80vh;
+background-color: #00BFA5;
+display: flex;
+flex-flow: row wrap;
+justify-content: center;
+align-items: center;
+flex: 1 1 auto;
+}
+.cup_image{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: stretch;
+    width: 40vw;
+    height: 70vh;
+}
+.cup_image__size{
+    width: 450px;
+}
+
+.cup_content{
+    width: 30vw;
+    height: 40vh;
+    color: #fff;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+}
+.cup_content__aside{
+    font-family: 'Modak', cursive;
+    font-size: 50px;
+    width: 30vw;
+    height: 30vh;
+}
+.cup_content__text{
+    display: flex;
+    flex-direction: row;
+    align-content: flex-end;
+    justify-content: center;
+    font-family: 'Modak', cursive;
+    font-size: 15px;
+    width: 30vw;
+    height: 40vh ;
+}
